@@ -1,5 +1,4 @@
 
-
 public class App {
     public static void main(String[] args) {
         Author rend = new Author("Ayn", "Rend");
@@ -13,3 +12,4 @@ public class App {
 
     }
 }
+
