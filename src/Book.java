@@ -1,4 +1,3 @@
-
 public class Book {
     private String title;
     private Author author;
@@ -22,13 +21,9 @@ public class Book {
         return author;
     }
 
-    @Override
-    public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", author=" + author +
-                ", yearOfPublishing=" + yearOfPublishing +
-                '}';
-    }
-}
 
+    public String toString() {
+        return String.format("Book: title - %s, author - %s, yearOfPublishing - %s", title, author, yearOfPublishing);
+    }
+
+}
